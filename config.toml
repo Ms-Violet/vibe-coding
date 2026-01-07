@@ -1,0 +1,11 @@
+model_provider = "right"
+model = "gpt-5.2"
+model_reasoning_effort = "medium"
+disable_response_storage = true
+
+
+[model_providers.right]
+name = "right"
+base_url = "https://right.codes/codex/v1"
+wire_api = "responses"
+requires_openai_auth = true
